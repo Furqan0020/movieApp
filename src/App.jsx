@@ -5,7 +5,7 @@ const KEY = import.meta.env.VITE_MY_API_KEY;
 
 function App() {
   const [movies, setMovies] = useState([]);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("john wick");
   const [isLoading, setIsLoading] = useState(false);
   const [isSelectedId, setIsSelectedId] = useState(null);
   const [wishlist, setWishlist] = useState(() => {
