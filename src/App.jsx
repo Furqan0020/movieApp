@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
-// eslint-disable-next-line no-undef
-const KEY = process.env.API_KEY;
+
+const KEY = import.meta.env.VITE_MY_API_KEY;
 
 function App() {
   const [movies, setMovies] = useState([]);
